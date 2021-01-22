@@ -1,0 +1,49 @@
+<div class="bod bg-info">
+
+  <div style="height: 20vh;" class="bg-info">          
+        <div class="row h-100">
+          <div class="col my-auto text-center">
+            <h1 class="display-4">KhloeyXBrielle Math4Phone</h1>
+          </div>
+        </div> 
+  </div>
+
+  <div style="height: 50vh" class="bg-info">
+    <div class="row h-100">
+      <div class="col my-auto">
+  
+          <div class="card text-center bg-green w-75 mx-auto">
+            <div class="card-header">
+             
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Create a Quiz for them.</h5>
+              <p>Create a quiz. You can customize the difficulty of the quiz, set and get a code.</p>            
+              <a href="#" class="btn btn-primary" routerLink="/projects-component/homework/register">Create</a>
+            </div>          
+          </div>
+
+      </div>
+        <div class="col my-auto">
+          <div class="card text-center border-info w-75 mx-auto">
+              <div class="card-header">
+           
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Take the Quiz</h5>
+                <p class="card-text">Enter the code below and start the Quiz</p>
+                <div class="input-group input-group-sm w-25 mx-auto">
+                  <input type="text" class="form-control" id="ans" placeholder="Enter Code" (keyup)="onKey($event)" (keyup.enter)="enter_code()">
+                  <div class="input-group-prepend">
+                      <button class="btn btn-primary" type="button" (click)="enter_code()" >Submit</button>                       
+                  </div>
+              </div>
+              </div>         
+            </div>
+        </div>
+  </div>
+  </div>
+
+  
+   
+</div>

@@ -1,0 +1,41 @@
+<div class="card text-center bod">
+    <div class="card-header">
+        Project Week #2
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            Covid-19 Math!
+        </h5>
+       
+        <div class="container text-primary">
+            <div class="card">
+
+                <div class="card-header">
+                    Question # 1
+                </div>
+
+                <div class="card-body ">
+                    <h5 id="question" class="card-title text-dark"></h5>
+                    <div class="col-md-12">
+                        <div class="input-group input-group-sm w-25 mx-auto">
+                            <input type="number" class="form-control" id="ans" placeholder="Answer" (keyup)="onKey($event)" (keyup.enter)="check_answer()" [(ngModel)]="ans">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary" type="button" (click)="check_answer()">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="card-footer text-muted">
+                    <button class="btn btn-outline-primary" type="button" id="start_button" *ngIf="this.start_button_invisible" (click)="start()">Start</button>
+                    <h1 id="demo"></h1>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+</div>
+
+
