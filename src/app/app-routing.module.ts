@@ -7,8 +7,13 @@ import { ProjectsComponent } from './projects/projects.component';
 
 import { HomeworkComponent } from './projects/homework/homework.component' ;
 import { RegisterComponent } from './projects/homework/register/register.component' ;
-import { MainComponent } from './projects/homework/main/main.component'
+import { MainComponent } from './projects/homework/main/main.component';
 
+import { BstVisualizationComponent } from './projects/bst-visualization/bst-visualization.component';
+
+import { AboutComponent } from './about/about.component';
+
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -18,7 +23,15 @@ const routes: Routes = [
 
   { path: 'projects-component/homework', component: HomeworkComponent},
   { path: 'projects-component/homework/register', component: RegisterComponent},
-  { path: 'projects-component/homework/main' , component: MainComponent}
+  { path: 'projects-component/homework/main' , component: MainComponent},
+
+  { path: 'projects-component/Bst-Visualization', component: BstVisualizationComponent},
+
+  { path: 'resume', component: AboutComponent},
+
+  { path: 'contact', component: ContactComponent}
+
+
 ];
 
 @NgModule({

@@ -18,6 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ApiService } from './api.service';
 import { MainComponent } from './projects/homework/main/main.component';
+import { BstVisualizationComponent } from './projects/bst-visualization/bst-visualization.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -28,7 +31,10 @@ import { MainComponent } from './projects/homework/main/main.component';
     ProjectsComponent,
     HomeworkComponent,
     RegisterComponent,
-    MainComponent
+    MainComponent,
+    BstVisualizationComponent,
+    AboutComponent,
+    ContactComponent
  
   ],
   imports: [

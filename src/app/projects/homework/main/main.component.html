@@ -1,33 +1,41 @@
 <div class="bod bg-info">
 
-  <div style="height: 20vh;" class="bg-info">          
+  <div style="height: 20vh;" class="bg-info">
         <div class="row h-100">
           <div class="col my-auto text-center">
             <h1 class="display-4">KhloeyXBrielle Math4Phone</h1>
+
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Sorry.</h5>
+            <p>As this website is now static, this project is not able to demo/work as I need storage to store the keys for a session.</p>
+            <p>You can clone this repo and go to the api service and point to your own database. Needless to say, you have to create your database tables accordingly.</p>
+            <p>See schema in project</p>
           </div>
-        </div> 
+
+          </div>
+        </div>
   </div>
 
   <div style="height: 50vh" class="bg-info">
     <div class="row h-100">
       <div class="col my-auto">
-  
+
           <div class="card text-center bg-green w-75 mx-auto">
             <div class="card-header">
-             
+
             </div>
             <div class="card-body">
               <h5 class="card-title">Create a Quiz for them.</h5>
-              <p>Create a quiz. You can customize the difficulty of the quiz, set and get a code.</p>            
+              <p>Create a quiz. You can customize the difficulty of the quiz, set and get a code.</p>
               <a href="#" class="btn btn-primary" routerLink="/projects-component/homework/register">Create</a>
-            </div>          
+            </div>
           </div>
 
       </div>
         <div class="col my-auto">
           <div class="card text-center border-info w-75 mx-auto">
               <div class="card-header">
-           
+
               </div>
               <div class="card-body">
                 <h5 class="card-title">Take the Quiz</h5>
@@ -35,15 +43,15 @@
                 <div class="input-group input-group-sm w-25 mx-auto">
                   <input type="text" class="form-control" id="ans" placeholder="Enter Code" (keyup)="onKey($event)" (keyup.enter)="enter_code()">
                   <div class="input-group-prepend">
-                      <button class="btn btn-primary" type="button" (click)="enter_code()" >Submit</button>                       
+                      <button class="btn btn-primary" type="button" (click)="enter_code()" >Submit</button>
                   </div>
               </div>
-              </div>         
+              </div>
             </div>
         </div>
   </div>
   </div>
 
-  
-   
+
+
 </div>

@@ -22,8 +22,6 @@ export class MainComponent implements OnInit {
 
   temp_ans = ''
   onKey(event:any){
-    this.temp_ans = event.target.value;  
+    this.temp_ans = event.target.value;
   }
-  
-  
 }
