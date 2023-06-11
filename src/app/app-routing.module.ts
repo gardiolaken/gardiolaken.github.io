@@ -18,14 +18,14 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'home-component', component: HomeComponent},
-  { path: 'projects-component', component: ProjectsComponent},
+  { path: 'home', component: HomeComponent},
+  { path: 'projects', component: ProjectsComponent},
 
-  { path: 'projects-component/homework', component: HomeworkComponent},
-  { path: 'projects-component/homework/register', component: RegisterComponent},
-  { path: 'projects-component/homework/main' , component: MainComponent},
+  { path: 'projects/homework', component: HomeworkComponent},
+  { path: 'projects/homework/register', component: RegisterComponent},
+  { path: 'projects/homework/main' , component: MainComponent},
 
-  { path: 'projects-component/Bst-Visualization', component: BstVisualizationComponent},
+  { path: 'projects/Bst-Visualization', component: BstVisualizationComponent},
 
   { path: 'resume', component: AboutComponent},
 
